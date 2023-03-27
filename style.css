@@ -1,0 +1,503 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: "Roboto", sans-serif;
+}
+
+.barraTopo {
+  width: 1366px;
+  height: 54px;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  border-radius: 1px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 0px 1px #c3c2c2;
+}
+
+.colection-icon {
+  width: 935px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.page-conteudo {
+  width: 1366px;
+  height: auto;
+  display: flex;
+  position: relative;
+  margin-left: 268px;
+}
+
+.icon {
+  width: 22px;
+  height: 22px;
+}
+
+.colection-icon .logo {
+  position: absolute;
+  left: 0px;
+}
+
+.instagram {
+  position: absolute;
+  top: 5px;
+  left: 30px;
+  width: 103px;
+  height: 30px;
+  padding-left: 0px;
+}
+
+.pesquisar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 215px;
+  height: 26px;
+  background-color: #fafafa;
+  border: solid 1px #dbdbdbcc;
+  color: #dbdbdb;
+}
+
+.colection-icon .chats {
+  position: absolute;
+  top: 6px;
+  right: 90px;
+}
+
+.colection-icon .navigates {
+  position: absolute;
+  top: 6px;
+  right: 60px;
+}
+
+.colection-icon .hearts {
+  position: absolute;
+  top: 6px;
+  right: 30px;
+}
+
+.colection-icon .person {
+  position: absolute;
+  top: 6px;
+  right: 0px;
+}
+
+.content {
+  position: relative;
+  left: 0px;
+  width: 830px;
+  height: auto;
+  display: flex;
+  margin-top: 54px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.caixa-stories {
+  width: 614px;
+  height: 88px;
+
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  align-items: center;
+
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 20px;
+  left: 215px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 6px 1px #afaeae;
+  overflow: hidden;
+
+  padding-left: 1px;
+}
+
+.stories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 2px;
+  padding: 2px;
+
+  width: 58px;
+  height: 58px;
+  background-color: white;
+  border: solid 2px red;
+  box-sizing: content-box;
+}
+
+.stories img {
+  width: 57px;
+  height: 57px;
+  padding: 0px;
+  border-radius: 50%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 215px;
+  width: 614px;
+  height: auto;
+}
+
+.container div {
+  width: 614px;
+  height: 50px;
+  background-color: #ffffff;
+  padding: 1px;
+}
+
+.imagem-principal {
+  width: 614px;
+  height: auto;
+}
+.seta img {
+  position: absolute;
+  bottom: 22px;
+  right: 7px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+}
+
+.python {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.info {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 2px;
+  padding-right: 10px;
+}
+
+p {
+  font-size: 14px;
+  padding-left: 5px;
+}
+.driven {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.rodape {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  margin-bottom: 74px;
+  box-sizing: content-box;
+  margin-left: 0px;
+}
+
+.rodape .icon {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.heart {
+  position: relative;
+  left: 2px;
+}
+
+.chat {
+  position: relative;
+  left: 10px;
+}
+.navigate {
+  position: absolute;
+  margin-left: 65px;
+}
+
+.bookmark {
+  position: absolute;
+  right: 2px;
+}
+.sideBar {
+  display: flex;
+  position: relative;
+  right: 0px;
+  top: -9px;
+  flex-direction: column;
+  width: 537px;
+  height: 500px;
+  margin-top: 54px;
+}
+.first-person {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 25px;
+  padding-top: 0px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  width: 293px;
+  height: 50px;
+}
+
+.anime {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+h3 {
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 6px;
+  color: #262626;
+  padding-left: 5px;
+}
+h4 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #8e8e8e;
+  padding-top: 6px;
+  padding-left: 5px;
+}
+h5 {
+  font-weight: 500;
+  font-size: 12px;
+  padding-left: 5px;
+  color: #8e8e8e;
+}
+
+h6 {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #262626;
+}
+
+.second-person {
+  display: flex;
+  position: relative;
+  margin-top: 2px;
+  margin-left: 25px;
+  padding-top: 0px;
+  padding-left: 20px;
+
+  width: 293px;
+  height: 58px;
+}
+
+.sugestoes {
+  width: 293px;
+  height: 20px;
+  display: flex;
+  margin-top: 1px;
+  margin-bottom: 5px;
+  position: relative;
+  margin-left: 15px;
+  left: 28px;
+  top: 5px;
+}
+
+.anime2 {
+  display: flex;
+  padding-top: 20px;
+}
+.anime2 img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.seguindo {
+  position: relative;
+  padding-top: 20px;
+  width: 293px;
+  height: 60px;
+  padding-left: 2px;
+}
+h2 {
+  position: absolute;
+  right: 0px;
+  bottom: 20px;
+  color: #139ef2;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.footer :nth-child(1) {
+  width: 293px;
+  height: 42px;
+  position: relative;
+  top: 10px;
+  left: 20px;
+  font-size: 11px;
+  color: #c7c7c7;
+  line-height: 12px;
+  font-weight: 400;
+}
+
+.footer :nth-child(2) {
+  width: 293px;
+  height: 14px;
+  position: relative;
+  top: 10px;
+  left: 20px;
+  font-size: 11px;
+  color: #c7c7c7;
+  line-height: 12px;
+  font-weight: 400;
+}
+
+.fixed-sidebar {
+  position: fixed;
+}
+
+.barra-inferior {
+  display: none;
+  width: 612px;
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 20px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #ffffff;
+}
+
+@media (max-width: 2000px) {
+  .barra-inferior {
+    display: none;
+  }
+}
+
+@media (max-width: 935px) {
+  .barra-inferior {
+    display: none;
+  }
+
+  .sideBar,
+  .fixed-sidebar,
+  .seta {
+    display: none;
+  }
+  .page-conteudo,
+  .barraTopo,
+  .imagem-principal,
+  .content,
+  .colection-icon {
+    width: 100%;
+  }
+
+  .page-conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .barraTopo {
+    position: fixed;
+    left: 0px;
+  }
+
+  .content {
+    position: relative;
+    left: -268px;
+  }
+
+  .caixa-stories,
+  .container {
+    position: relative;
+    left: 160px;
+  }
+}
+
+@media (max-width: 614px) {
+  .colection-icon,
+  .barraTopo,
+  .page-conteudo,
+  .content,
+  .colection-icon,
+  .container,
+  .imagem-principal,
+  .caixa-stories,
+  .python,
+  .rodape {
+    width: 100%;
+  }
+  .pesquisar,
+  .chats,
+  .hearts,
+  .person,
+  .seta {
+    display: none;
+  }
+
+  .icon.navigates {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+  }
+
+  .instagram {
+    position: absolute;
+    top: 5px;
+    left: 235px;
+  }
+
+  .content {
+    position: relative;
+
+    /*left: -269px;*/
+  }
+  .caixa-stories,
+  .container {
+    position: relative;
+    margin-left: 0px;
+    left: 3px;
+  }
+  .caixa-stories {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2px;
+    margin-bottom: 0px;
+  }
+
+  .info {
+    margin-right: 10px;
+  }
+
+  .barra-inferior {
+    display: flex;
+  }
+  .bookmark {
+    position: relative;
+    left: 470px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}
